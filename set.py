@@ -1,5 +1,5 @@
 fruits={"apple","mango","banana","orange"}
-juice={"pineapple"}
+juice={"apple"}
 print(fruits.intersection(juice))
 print(fruits.union(juice))
 print(juice.issubset(fruits))
