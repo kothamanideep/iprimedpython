@@ -6,5 +6,5 @@ print(juice.issubset(fruits))
 print(juice.issuperset(fruits))
 print(fruits.difference(juice))
 # fruits.add("grapes")
-# fruits.discard("mango") #remove or discard we can use
-# print(fruits)
+#  fruits.discard("mango") #remove or discard we can use
+#  print(fruits)
