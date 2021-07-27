@@ -10,8 +10,6 @@ class BMW(cars):
 
 obj1=cars()
 obj2=BMW()
-# obj2.mycolor("blue")
-# obj2.topspeed("100")
 
 obj1.mycolor("blue")
 obj1.topspeed(100)

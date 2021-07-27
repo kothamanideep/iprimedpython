@@ -10,8 +10,7 @@ class cat(animals):
 
 obj1=animals()
 obj2=cat()
-# obj2.mycolor("white")
-# obj2.topspeed(100)
+
 
 obj2.eat("meat")
 obj2.sound("meow")
