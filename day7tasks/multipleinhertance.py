@@ -13,8 +13,10 @@ class calculator(Calculation1,Calculation2,Derived):
 
 
 d = calculator()  
-n1=int(input("enter a number:"))
-n2=int(input("enter second number:"))
-print(d.Summation(n1,n2))  
-print(d.Multiplication(n1,n2))  
-print(d.Divide(n1,n2))  
+# n1=int(input("enter a number:"))
+# n2=int(input("enter second number:"))
+# print(d.Summation(n1,n2))  
+# print(d.Multiplication(n1,n2))  
+# print(d.Divide(n1,n2))  
+print(issubclass(Calculation1,Calculation2))  #to check to ascess
+print(issubclass(Derived,calculator))
