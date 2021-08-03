@@ -1,0 +1,10 @@
+CRITICAL:root:critical error happend
+ERROR:root:an unknown error happend
+WARNING:root:Expected value is an integer
+DEBUG:root:for developers
+INFO:root:Normal message
+CRITICAL:root:critical error happend
+ERROR:root:an unknown error happend
+WARNING:root:Expected value is an integer
+DEBUG:root:for developers
+INFO:root:Normal message
