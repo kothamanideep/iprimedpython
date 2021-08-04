@@ -1,0 +1,8 @@
+myfile=open("file3.txt",'a+')
+a=input("enter aname")
+myfile.write(a+"\n")
+print(myfile.tell())
+myfile.seek(0)
+x=myfile.read()
+print(x)
+myfile.close()
