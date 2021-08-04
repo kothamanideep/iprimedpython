@@ -1,3 +1,4 @@
+
 studentlist=[]
 class StudentDetails:
     # def __init__(self,name,rollno,admin,english,hindi,maths,science,social):
@@ -13,6 +14,13 @@ class StudentDetails:
         totalmarks=english+hindi+maths+science+social
         dict1={"total":totalmarks,"name":name,"rollno":rollno,"admin":admin,"englisg":english,"hindi":hindi,"maths":maths,"science":science,"social":social}
         studentlist.append(dict1)
+    def validate(dict1):
+      valname=re.search("[A-z]{1}[^A-z]{0,25}$",dict1["name"])
+      
+      if valname :
+         return True
+      else:
+         return False
 obj1=StudentDetails()
 while(True):
     print("1.Add student:")
